@@ -1,0 +1,32 @@
+.navbar
+{
+    background-image: url(https://plus.unsplash.com/premium_photo-1689838027426-bf5cc3a0131f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 1s;
+}
+li
+{
+    margin-left: 20px;
+    text-shadow: 10px 10px 10px black;
+   
+}
+li:hover
+{
+    color: red;
+    transition: 2s;
+    scale: 100.5%;
+   
+}

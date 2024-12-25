@@ -1,0 +1,45 @@
+<div class="main">
+  <div class="container">
+    <div class="row ">
+        <div class="col coro mt-5  p-5">
+            <owl-carousel-o [options]="customOptions">
+                <ng-container *ngFor="let slide of slides">
+                  <ng-template carouselSlide [id].tostring()="slide.id">
+                    <img [src]="slide.image" [alt]="slide.alt"
+                    height="450vh" >
+                  </ng-template>
+                </ng-container>
+              </owl-carousel-o>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col p-5  m-5 box">
+          <p>
+            India, officially known as the Republic of India, is a vibrant and diverse country located in South Asia. It is the seventh-largest country in the world by land area and the second-most populous, with over 1.4 billion people. India's rich cultural heritage, vast history, and dynamic socio-economic structure make it one of the most fascinating nations globally.
+
+### Geography and Diversity
+India is bordered by Pakistan to the northwest, China and Nepal to the north, Bhutan to the northeast, and Bangladesh and Myanmar to the east. To the south, it is flanked by the Indian Ocean, with the Andaman and Nicobar Islands extending into Southeast Asia. The country features diverse geographical landscapes, including the towering Himalayas in the north, fertile plains of the Ganges and Yamuna rivers, the arid Thar Desert in the west, and the lush Western and Eastern Ghats along the coastlines.
+
+### Historical and Cultural Heritage
+India's history dates back thousands of years, with ancient civilizations such as the Indus Valley Civilization flourishing around 2500 BCE. Over centuries, India has been influenced by numerous dynasties, including the Mauryas, Guptas, Mughals, and British colonial rule, each leaving an indelible mark on its culture and society. The country's struggle for independence, led by figures like Mahatma Gandhi, Jawaharlal Nehru, and Sardar Patel, culminated in freedom from British rule on August 15, 1947.
+
+India is renowned for its cultural diversity. It is home to a multitude of languages, religions, traditions, and cuisines. The Indian constitution recognizes 22 official languages, with Hindi and English being the most widely spoken. Religions such as Hinduism, Buddhism, Jainism, and Sikhism originated in India, while Islam, Christianity, and Zoroastrianism also have deep roots.
+
+### Economy and Technological Progress
+India is one of the world's fastest-growing economies, transitioning from an agrarian economy to a hub of technology and services. The country is a global leader in information technology, with cities like Bengaluru and Hyderabad earning the title of "Silicon Valley of India." Additionally, sectors like pharmaceuticals, textiles, and renewable energy have seen significant growth.
+
+Agriculture continues to play a vital role in India, employing a large portion of the population and contributing to exports. India is also known for its rich natural resources, including coal, iron ore, and biodiversity.
+
+### Challenges and Opportunities
+Despite its progress, India faces challenges such as poverty, unemployment, and infrastructural deficits. Rapid urbanization and population growth have put pressure on resources and the environment. However, initiatives like "Digital India," "Make in India," and "Skill India" are aimed at fostering innovation, economic growth, and sustainability.
+
+### Global Influence and Vision
+India plays a pivotal role in global politics, being a member of organizations like the United Nations, G20, BRICS, and the Commonwealth. It is also recognized for its leadership in space exploration through the Indian Space Research Organisation (ISRO), which has achieved remarkable milestones like the Chandrayaan and Mars Orbiter missions.
+
+India's essence lies in its unity in diversity, its resilience, and its ability to balance tradition with modernity. It stands as a beacon of democracy, a treasure trove of culture, and a land of endless possibilities.
+          </p>
+      </div>
+    </div>
+</div>
+</div>
+  

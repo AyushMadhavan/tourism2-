@@ -1,0 +1,23 @@
+.main
+{
+    background-image: url(https://images.unsplash.com/photo-1546171995-fc8620224997?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    max-height: fit-content;
+    background-size: cover;
+    max-width: 100%;
+}
+.box
+{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px green;
+    backdrop-filter: blur(20px);
+    border-radius:10px;
+    color: aliceblue;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    font-size: 20px;
+    transition: 2s;
+}
+.box:hover
+{
+    scale: 102%;
+    transition: 1s;
+}
